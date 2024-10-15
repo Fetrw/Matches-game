@@ -38,17 +38,27 @@ const GameBoard: React.FC<GameBoardProps> = ({
       </div>
       <div className="d-flex justify-content-center flex-wrap mt-4">
         {Array.from({ length: remainingMatches }, (_, index) => (
-          <div
-            key={index}
-            className="m-1"
-            style={{
-              width: "10px",
-              height: "50px",
-              borderRadius: "2px",
-              background: "linear-gradient(to bottom, yellow 20%, #b5651d 20%)",
-              transition: "opacity 0.3s",
-            }}
-          ></div>
+          <div key={index} className="m-1" style={{ position: "relative" }}>
+            <div
+              style={{
+                width: "10px",
+                height: "50px",
+                backgroundColor: "#D19A6A",
+                borderRadius: "5px",
+              }}
+            ></div>
+            <div
+              style={{
+                width: "15px",
+                height: "15px",
+                backgroundColor: "#8B4513",
+                borderRadius: "50%",
+                position: "absolute",
+                top: "-5px",
+                left: "-2.5px",
+              }}
+            ></div>
+          </div>
         ))}
       </div>
       <div className="mt-4 text-center">
