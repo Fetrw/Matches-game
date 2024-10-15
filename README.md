@@ -3,8 +3,6 @@
 This project is a match-picking game implemented using React and TypeScript. The player and the computer take turns picking matches from the board, aiming to make the last winning move. The game is over once all matches are taken. Whoever has the even amount of matches wins.
 
 ## 🚀 Features
-
-🚀 Features
 - 🎲 Customizable Settings: Set the total number of matches, the maximum number of matches that can be taken per turn, and choose whether the player or computer goes first.
 - 🧠 Smart AI Opponent: The computer uses an optimal move strategy to try and win the game.
 - 💬 Real-time Feedback: Game messages and a modal display the status of each turn and the game's outcome.
