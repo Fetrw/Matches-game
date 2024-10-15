@@ -1,6 +1,6 @@
 # Match Game 🎮
 
-This project is a match-picking game implemented using React and TypeScript. The player and the computer take turns picking matches from the board, aiming to make the last winning move.
+This project is a match-picking game implemented using React and TypeScript. The player and the computer take turns picking matches from the board, aiming to make the last winning move. The game is over once all matches are taken. Whoever has the even amount of matches wins.
 
 ## 🚀 Features
 
